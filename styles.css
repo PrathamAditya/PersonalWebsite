@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: #FFF5EB;
+    /* background-color: #FFF5EB; */
+    background-color: #1D1C1A;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -12,11 +13,12 @@ body {
     width: 220px;
     height: 300px;
     border-radius: 3%;
-    box-shadow: -15px 10px 5px #aaaaaa;
+    box-shadow: -5px 5px 5px #171616;
 }
 
 .image-name {
     font-size: 20px;
+    color: #FFF5EB;
 }
 
 .main {
@@ -39,7 +41,7 @@ body {
 
 .div-second {
     text-align: left;
-    color: #333;
+    color: #FFF5EB;
     font-size: 18px;
 }
 
@@ -51,7 +53,7 @@ body {
 
 .footer-image:hover {
     transform: scale(1.1);
-    box-shadow: rgba(255, 245, 235, 0.8);
+    box-shadow: rgba(52, 51, 50, 0.8);
     transition: all 0.3s ease-in-out;
     border-radius: 2%;
 }
@@ -60,10 +62,10 @@ body {
     position: fixed;
     bottom: 0;
     /* background-color: #1D1C1A; */
-    background-color: #73787C;
+    background-color: #FFF5EB;
     width: 100%;
     text-align: center;
-    color: #FFF5EB;
+    color: #1D1C1A;
     height: 90px;
 }
 
