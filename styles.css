@@ -69,11 +69,64 @@ body {
     height: 90px;
 }
 
-/* 
-#mail:hover {
-    transform: 1.2;
-} */
-
 .footer-div {
     position: 50%;
+}
+
+/* Tablet Screens (Below 1024px) */
+@media (max-width: 1024px) {
+    .main {
+        gap: 2rem;
+    }
+
+    .child {
+        width: 40%;
+    }
+}
+
+/* Mobile Screens (Below 768px) */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .child {
+        width: 80%;
+        /* Make sections take most of the width */
+        text-align: center;
+    }
+
+    .div-second {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .footer-image {
+        width: 25px;
+        /* Slightly bigger for mobile touch */
+    }
+}
+
+/* Very Small Screens (Below 480px) */
+@media (max-width: 480px) {
+    .image {
+        width: 180px;
+    }
+
+    .image-name {
+        font-size: 18px;
+    }
+
+    .div-second {
+        font-size: 14px;
+        padding: 0 10px;
+    }
 }
